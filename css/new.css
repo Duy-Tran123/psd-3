@@ -4,10 +4,10 @@
 	font-size: 16px;
 
 }
-@font-face{
+/*@font-face{
     font-family: 'roboto-regular';
     src:url('../fonts/Roboto-regular.ttf');
-}
+}*/
 .app{
 	position: relative;
 	max-width: 1920px;
@@ -226,7 +226,7 @@ p#title-special {
 p.item-des {
     margin-bottom: 35px;
     font-size: 12px;
-    font-family: roboto-regular;
+    font-family:'Roboto', sans-serif;
     color: #5A6E79;
 }
 p.item-reading {
@@ -273,7 +273,7 @@ p.item-title{
 .footer p {
     font-size: 14px;
     color: #969595;
-    font-family: roboto-regular;
+    font-family:'Roboto', sans-serif;
 }
 .footer-2 p {
     margin-bottom: 35px;
@@ -288,12 +288,12 @@ p.item-title{
 .footer-2 h6 {
     margin-bottom: 50px;
     color: white;
-    font-family: roboto-regular;
+    font-family: 'Roboto', sans-serif;
 }
 .footer-3 h6{
 	margin-bottom: 50px;
 	color: white;
-	font-family: roboto-regular;	
+	font-family: 'Roboto', sans-serif;
 }
 .footer-3 ul li {
     list-style: none;
@@ -303,12 +303,12 @@ p.item-title{
     text-decoration: none;
     font-size: 14px;
     color: #969595;
-    font-family: roboto-regular;
+    font-family:'Roboto', sans-serif;
 }
 .footer-4 h6{
 	color: white;
 	margin-bottom: 50px;
-	font-family: roboto-regular;
+	font-family: 'Roboto', sans-serif;
 }
 .footer-4 p{
 	margin-bottom: 30px
@@ -329,12 +329,12 @@ p.item-title{
     padding: 15px 8px;
     font-size: 12px;
     text-decoration: none;
-    font-family: roboto-regular;
+    font-family: 'Roboto', sans-serif;
 }
 input::placeholder {
  
   font-size: 12px;
-  font-family: roboto-regular;
+  font-family: 'Roboto', sans-serif;
 }
 hr {
     background: #5d4848;
@@ -361,7 +361,7 @@ i.fa-facebook-square {
 .copyright {
     color: #969595;
     font-size: 13px;
-    font-family: roboto-regular;
+    font-family: 'Roboto', sans-serif;
 }
 
 .last-footer ul li {
@@ -373,7 +373,7 @@ i.fa-facebook-square {
 	text-decoration: none;
 	color: #969595;
 	font-size: 13px;
-	font-family: roboto-regular;
+	font-family: 'Roboto', sans-serif;
 
 }
 @media (max-width: 767px) {
