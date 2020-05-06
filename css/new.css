@@ -140,8 +140,9 @@ li.button a{
 	width: 100%;
 	/*position: relative;*/
 }
-.col-md-4{
-	position: relative;
+.col-md-4 {
+    position: relative;
+    bottom: -10px;
 }
 .main h6 {
     position: absolute;
@@ -156,6 +157,8 @@ li.button a{
 }
 .main-center {
     margin-top: 120px;
+    position: relative;
+    bottom: -15px;
 }
 .main-center h4 {
     font-size: 40px;
@@ -202,6 +205,8 @@ p.des {
 .main-footer {
     margin-top: 140px;
     margin-bottom: 120px;
+    position: relative;
+    bottom: -10px;
 }
 .main-footer h4{
 	font-size: 40px;
@@ -414,13 +419,23 @@ i.fa-facebook-square {
     height: 40px;
     margin-left: 33px;
 }
-
+	.col-12{
+		margin-bottom: 45px;
+	}
+	#item1,#item2,#item3{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.main-header .col-md-4{
+		margin-bottom: 20px;
+	}
 
 }
 @media (min-width: 768px) and (max-width: 1024px) {
 	.logo {
     display: none;
 }
+
 .app{
 	max-width: 100%;
 		background: url(../image/photo.jpg);
@@ -439,6 +454,12 @@ i.fa-facebook-square {
     color: #43cb83;
     font-size: 15px;
     margin-bottom: 0;
+}
+.col-md-12{
+	margin-bottom: 45px;
+}
+.col-md-6{
+	margin-bottom: 45px;
 }
 }
 @media(min-width: 1025) and (max-width: 1919){
